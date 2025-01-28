@@ -1,4 +1,4 @@
-package demo;
+package org.tnsif.accenture.c2tc.java;
 
 public class TypeCastingDemo {
 
