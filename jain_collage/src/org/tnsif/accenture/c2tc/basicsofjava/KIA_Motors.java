@@ -1,4 +1,4 @@
-package org.tnsif.accenture.c2tc.java;
+package org.tnsif.accenture.c2tc.basicsofjava;
 
 public class KIA_Motors {
 	
