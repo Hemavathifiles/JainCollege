@@ -1,4 +1,4 @@
-package org.tnsif.accenture.c2tc.Scanner_Buffer_Demo;
+package org.tnsif.accenture.c2tc.scanner_buffer_demo;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package org.tnsif.accenture.c2tc.ExceptionHandling;
+package org.tnsif.accenture.c2tc.exceptionhandling;
 
 public class ThrowDemo {
 
