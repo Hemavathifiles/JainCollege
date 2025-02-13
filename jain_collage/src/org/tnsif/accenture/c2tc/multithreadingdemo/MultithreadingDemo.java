@@ -1,4 +1,4 @@
-package org.tnsif.accenture.c2tc.exceptionhandling;
+package org.tnsif.accenture.c2tc.multithreadingdemo;
 
 class Eclipse extends Thread
 {
@@ -31,11 +31,14 @@ public class MultithreadingDemo {
 	public static void main(String[] args) {
 		Eclipse obj=new Eclipse();
 		obj.start();
-		Chrome obj1=new Chrome();
+		NoteBook obj1=new NoteBook();
 		obj1.start();
-		NoteBook obj2=new NoteBook();
-		obj2.start();
-		System.out.println("Main thread id is " +Thread.currentThread().getId());
+		
+		for(int i=0;i<5;i++)
+		{
+			System.out.println("Main thread id is " +Thread.currentThread().getId());
+		}
+		
 	}
 
 }
